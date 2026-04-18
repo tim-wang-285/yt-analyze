@@ -1,0 +1,3 @@
+- Adjusted English topic labeling to prefer supported multi-word phrases over disconnected single-word labels when both come from the same cluster.
+- Added phrase-component suppression and phrase recovery so labels such as `real atc` or `every mode` are more likely to survive instead of degrading into `real / atc` or `every / mode`.
+- Kept semantic clustering unchanged; the change only affects label selection and the persisted JSON/Markdown topic outputs.

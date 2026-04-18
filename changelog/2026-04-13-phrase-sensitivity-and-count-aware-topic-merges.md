@@ -1,0 +1,2 @@
+- Increased English topic-label phrase sensitivity so supported multi-word phrases are chosen more aggressively instead of falling back to split single-word labels.
+- Added a count-tolerance gate to topic merging so overlapping labels only consolidate when the two topic sizes are within 50% of each other; otherwise both topics remain separate in JSON and Markdown outputs.

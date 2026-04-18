@@ -1,0 +1,2 @@
+- Tightened topic consolidation so clusters only merge when they share at least one full normalized label component, case-insensitively.
+- Removed the centroid-similarity gate from merge decisions; merged labels still union their exact shared-component neighborhoods such as `ads / come` + `come / hey` -> `ads / come / hey`.

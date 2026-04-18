@@ -1,0 +1,2 @@
+- Added a final topic cleanup pass that merges duplicate label groups when they contain the exact same normalized components in any order, summing topic metadata into one canonical label.
+- Added strict-subset consolidation so a smaller label group such as `a / d` is folded into a superset like `a / b / d`, while partial overlaps that are not true subsets remain separate.

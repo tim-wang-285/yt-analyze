@@ -1,0 +1,3 @@
+- Removed the `--no-semantic-embed` path so semantic topic analysis always runs for the selected scope and persisted outputs stay consistent.
+- Added required year selection via `--year ...` or `--all`; when neither is provided, the CLI now prints help plus the available years discovered in the Takeout file and exits.
+- Expanded the monthly drift console preview to print the top 20 phrases for each month.

@@ -1,0 +1,2 @@
+- Changed topic merging so overlapping label components can merge semantically similar topics, producing combined labels such as `A / B / C` during the merge stage.
+- Removed topic numbering from Markdown report headings so topic sections read by label only.

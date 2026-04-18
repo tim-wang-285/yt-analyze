@@ -1,0 +1,3 @@
+- Removed the optional OpenAI topic-merge adjudication path from the CLI, pipeline, and reports.
+- The semantic topic flow now relies only on local embedding-based clustering plus deterministic label-overlap cleanup.
+- Stopped persisting LLM merge audit metadata and removed the unused OpenAI dependency and module.

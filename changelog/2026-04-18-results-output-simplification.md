@@ -1,0 +1,3 @@
+- Renamed the persisted semantic outputs to `outputs/results.json` and `outputs/results_by_year.{json,md}` and removed the separate timeline report from the pipeline.
+- Stopped writing a high-level Markdown summary so the top-level output is now JSON-only.
+- Kept representative channel groupings in both JSON reports and yearly Markdown while dropping sampled-title lists from persisted output and keeping raw `title_counts` in JSON only.

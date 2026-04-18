@@ -1,0 +1,2 @@
+- Suppressed the `BertModel LOAD REPORT` warning emitted during semantic embedding model startup when the only unexpected key is `embeddings.position_ids`.
+- Kept other `transformers` model loading warnings unchanged so real checkpoint or architecture mismatches still surface.

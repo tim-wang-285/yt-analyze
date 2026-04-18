@@ -1,0 +1,2 @@
+- Added per-topic and per-year title frequency summaries to the semantic topic outputs so later consumers can show topic counts alongside concrete video titles without rebuilding counts from raw members.
+- Added a stable pseudo-random five-title sample for each topic/yearly topic view so representative titles vary while the persisted JSON and Markdown outputs remain deterministic.

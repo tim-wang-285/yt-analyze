@@ -1,0 +1,3 @@
+- Kept parsing all Takeout activity rows so the analyzer can distinguish watched entries from other interaction types in the selected year scope.
+- Restricted the deterministic statistics and semantic topic pipeline inputs to `YouTube` records whose action is exactly `Watched`.
+- Updated the CLI summary and README to make the watched-only analysis boundary explicit while still reporting excluded interaction counts.
