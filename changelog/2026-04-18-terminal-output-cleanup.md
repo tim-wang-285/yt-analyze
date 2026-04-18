@@ -1,3 +1,0 @@
-- Removed the `First 5 watched entries` preview from terminal output.
-- Removed terminal-only activity breakdown and monthly drift diagnostics from the scope summary.
-- Replaced verbose semantic embedding diagnostics with a short semantic topic report output summary.

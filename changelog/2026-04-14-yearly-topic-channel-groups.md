@@ -1,2 +1,0 @@
-- Added yearly-topic channel groupings so each topic-year JSON entry now includes representative channels ranked by watch count plus all video titles observed under each channel for that topic-year slice.
-- Kept the richer channel/title grouping scoped to the yearly topic report so the main topic JSON shape stays unchanged beyond the earlier title-count metadata.

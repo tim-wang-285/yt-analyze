@@ -1,2 +1,0 @@
-- Added `--cpu-embed` so CPU embedding remains available as an explicit opt-in.
-- Changed the default embedding path to let `SentenceTransformer` choose its own device when no flag is provided.

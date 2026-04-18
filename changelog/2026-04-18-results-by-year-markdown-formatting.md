@@ -1,1 +1,0 @@
-Updated the yearly report writer in `reporting.py` so `outputs/results_by_year.md` is generated with nested Markdown bullets and bolded keys instead of inline Python/JSON-style list and dict literals.

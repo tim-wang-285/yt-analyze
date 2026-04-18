@@ -1,2 +1,0 @@
-- Added `--years` to limit analysis to specific watch-history years before semantic embedding, reducing embedding work and keeping outputs focused on the selected years.
-- Changed yearly topic Markdown rendering to list the newest year first.
