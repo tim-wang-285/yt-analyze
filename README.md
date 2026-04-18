@@ -3,7 +3,7 @@
 Clone the repo, fill in the `WATCH_FILE` path, and run it with `uv`.
 
 ```bash
-git clone https://github.com/<your-org-or-user>/yt-analyze.git
+git clone https://github.com/tim-wang-285/yt-analyze.git
 cd yt-analyze
 touch .env
 ```
@@ -83,16 +83,6 @@ Useful options:
 - `--results-output`: change the main JSON output path
 - `--results-by-year-output`: change the yearly JSON output path
 - `--topic-threshold`: change the cosine-similarity threshold used for topic communities
-
-## Default Paths
-
-- Input file: `WATCH_FILE` from env or `.env`
-- Embedding cache: `.cache/yt-analyze/`
-- Main results JSON: `outputs/results.json`
-- Yearly results JSON: `outputs/results_by_year.json`
-- Yearly summary Markdown: `outputs/results_by_year.md`
-
-Output directories are created automatically when needed.
 
 ## Outputs
 
